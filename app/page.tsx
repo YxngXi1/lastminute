@@ -23,7 +23,7 @@ const initialOptions = [
   "Shoujo",
 ];
 
-const forcedOrder = ["Modern Gothic", "Retro Glamour", "Teenage Dream"];
+const forcedOrder = ["Modern Gothic", "Teenage Dream", "Retro Glamour"];
 const wheelColors = ["#a5b4c2", "#a2b08e", "#cbc5a5"];
 
 const pointerSvg =
