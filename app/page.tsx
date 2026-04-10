@@ -98,7 +98,6 @@ export default function Home() {
     <>
       <main className="stage">
         <div className="wheel-frame">
-          <div className="pointer" aria-hidden="true" />
           <div
             aria-disabled={!options.length || mustSpin}
             aria-label="Aesthetic wheel"
@@ -125,10 +124,9 @@ export default function Home() {
                 pointerProps={{
                   src: pointerSvg,
                   style: {
-                    right: "50%",
-                    top: "-22px",
-                    transform: "translateX(50%)",
-                    width: "28px",
+                    right: "6px",
+                    top: "15px",
+                    transform: "rotate(45deg)",
                   },
                 }}
                 prizeNumber={prizeNumber}
