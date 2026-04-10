@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style Spinner</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="stage">
+      <div class="pointer" aria-hidden="true"></div>
+      <div class="wheel" id="wheel" aria-label="Aesthetic wheel" role="button" tabindex="0">
+        <div class="wheel-labels" id="wheelLabels"></div>
+      </div>
+    </main>
+
+    <section class="result-modal hidden" id="resultModal" role="dialog" aria-modal="true" aria-labelledby="resultTitle">
+      <div class="result-card">
+        <h2 id="resultTitle">Selected Option</h2>
+        <p class="result-name" id="resultName"><span id="resultNameText">Retro Glamour</span></p>
+        <button type="button" class="close-btn" id="closeBtn">yayy!!</button>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
